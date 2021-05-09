@@ -1,6 +1,6 @@
 # MSGMAN-feris
 
-msgman-feris is just a package that add's say and kick command for me (xD) just don't use it, ok?
+msgman-feris is a package that adds `clear, kick` commands for owners.
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm install msgman-feris
 ## Usage
 
 ```javascript
-require("msgman-feris").init(client)        //define client as discord.js client
+require("msgman-feris").init(client, ["first-owner-id", "second-owner-id"])        //define client as discord.js client
 ```
 
 ## License
