@@ -13,7 +13,7 @@ npm install msgman-feris
 ## Usage
 
 ```javascript
-require("msgman-feris").init(client, ["first-owner-id", "second-owner-id"])        //define client as discord.js client
+require("msgman-feris").init(client, ["first-owner-id", "second-owner-id"], true)        //define client as discord.js client, third argument is logging
 ```
 
 ## License
